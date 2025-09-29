@@ -8,4 +8,4 @@ deploy:
   github_token: $github_token # we’ll add this secret in Travis next
   local_dir: build # folder to publish
   on:
-    branch: master # only deploy when pushing to main
+    branch: master
